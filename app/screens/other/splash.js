@@ -6,10 +6,7 @@ import {
   Dimensions,
   StatusBar,
 } from 'react-native';
-import {
-  RkText,
-  RkTheme,
-} from 'react-native-ui-kitten';
+import { RkTheme } from 'react-native-ui-kitten';
 import {
   StackActions,
   NavigationActions,
