@@ -55,9 +55,11 @@ export class ProgressBar extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    height: 3,
+    height: 15,
+    borderRadius: 10
   },
   value: {
-    height: 3,
+    height: 15,
+    borderRadius: 10
   },
 });

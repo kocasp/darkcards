@@ -65,13 +65,9 @@ export class SplashScreen extends React.Component {
           style={[styles.image, { width: Dimensions.get('window').width }]}
           source={require('../../assets/images/splashBack.png')}
         />
-        <View style={styles.text}>
-          <RkText rkType='light' style={styles.hero}>React Native</RkText>
-          <RkText rkType='logo' style={styles.appName}>UI Kitten</RkText>
-        </View>
       </View>
       <ProgressBar
-        color={RkTheme.current.colors.accent}
+        color='white'
         style={styles.progress}
         progress={this.state.progress}
         width={scale(320)}
@@ -82,7 +78,7 @@ export class SplashScreen extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: KittenTheme.colors.screen.base,
+    backgroundColor: KittenTheme.colors.screen.alter,
     justifyContent: 'space-between',
     flex: 1,
   },
@@ -102,6 +98,6 @@ const styles = StyleSheet.create({
   progress: {
     alignSelf: 'center',
     marginBottom: 35,
-    backgroundColor: '#e5e5e5',
+    backgroundColor: '#FF9BC1',
   },
 });
