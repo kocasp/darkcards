@@ -86,6 +86,12 @@ export const MainRoutes = [
     ],
   },
   {
+    id: 'PuzzleCards',
+    title: 'Puzzle Cards',
+    screen: Screens.Articles3,
+    children: [],
+  },
+  {
     id: 'ArticlesMenu',
     title: 'Articles',
     icon: FontIcons.article,

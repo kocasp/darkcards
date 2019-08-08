@@ -27,7 +27,8 @@ export class WalkthroughScreen extends React.Component {
   };
 
   onStartButtonPressed = () => {
-    this.props.navigation.goBack();
+    // this.props.navigation.goBack();
+    this.props.navigation.navigate('PuzzleCards');
   };
 
   render = () => (
