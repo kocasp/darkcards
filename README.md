@@ -49,7 +49,10 @@ The project is a regular ReactNative app
 ## Development instructions
 
 ### Roadmap
-In progress
+Current progress is tracked on the trello board. Feel free to review and contact if you want to collaborate.  
+
+<a href="https://trello.com/b/0iU3zwqP/lateral" alt="App Store"><img src="https://i.pinimg.com/originals/01/7d/8d/017d8dead11ecc9fcc13e7375149b7b2.png" width="100"/></a>
+
 
 <!--- Refer to https://github.com/matiassingers/awesome-readme to see examples and tools
 to create readme in general --->
